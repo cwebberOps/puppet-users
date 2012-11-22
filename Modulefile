@@ -1,11 +1,8 @@
 name    'puppet-users'
 version '0.0.1'
-source 'UNKNOWN'
-author 'puppet'
-license 'Apache License, Version 2.0'
-summary 'UNKNOWN'
-description 'UNKNOWN'
-project_page 'UNKNOWN'
-
-## Add dependencies, if any:
-# dependency 'username/name', '>= 1.2.0'
+source 'http://github.com/cwebberOps/puppet-users'
+author 'Christopher Webber'
+license 'Simplified BSD License'
+summary 'Users Module'
+description 'Wrapper for Hiera based User Definitions'
+project_page 'http://github.com/cwebberOps/puppet-users'
