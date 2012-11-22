@@ -1,6 +1,23 @@
-users
+puppet-users
+------------
 
 This module is a stub for using Hiera to generate users.
+
+Usage
+-----
+
+Creates users resources based on having a users hash in your hieradata
+
+hieradata.yaml
+```
+users:
+  joe:
+    ensure     : present
+    uid        : 1000
+    shell      : '/bin/bash'
+    home       : '/home/joe'
+    managehome : true
+```
 
 License
 -------
