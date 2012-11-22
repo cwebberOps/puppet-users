@@ -1,4 +1,16 @@
-puppet-users
-============
+users
 
-Basic stub for building users via Hiera
+This is the users module.
+
+License
+-------
+
+
+Contact
+-------
+
+
+Support
+-------
+
+Please log tickets and issues at our [Projects site](http://projects.example.com)
